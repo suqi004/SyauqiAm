@@ -1,1 +1,39 @@
+// Fungsi untuk melakukan Counting Sort berdasarkan digit tertentu
+function countingSort(arr, place) {
+    let output = new Array(arr.length); 
+    let count = new Array(10).fill(0);  
 
+    // Hitung jumlah kemunculan digit pada posisi 'place'
+    for (let i = 0; i < arr.length; i++) {
+        let digit = Math.floor(arr[i] / place) % 10;
+        count[digit]++;
+    }
+
+    // Menghitung posisi kumulatif dalam count[]
+    for (let i = 1; i < 10; i++) {
+        count[i] += count[i - 1];
+    }
+
+    // Bangun array output berdasarkan posisi kumulatif
+    for (let i = arr.length - 1; i >= 0; i--) {
+        let digit = Math.floor(arr[i] / place) % 10;
+        output[count[digit] - 1] = arr[i];
+        count[digit]--;
+    }
+
+    // Salin output[] ke arr[], sehingga arr[] sekarang berisi angka yang terurut berdasarkan digit
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = output[i];
+    }
+}
+
+// Fungsi utama untuk melakukan Radix Sort
+function radixSort(arr) {
+    // Temukan nilai terbesar dalam array untuk menentukan jumlah digit
+    let max = Math.max(...arr);
+
+    // Lakukan counting sort untuk setiap digit (1s, 10s, 100s, dst.)
+    for (let place = 1; Math.floor(max / place) > 0; place *= 10) {
+        countingSort(arr, place);
+    }
+}
