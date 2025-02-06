@@ -1,0 +1,17 @@
+// Fungsi untuk melakukan quick sort pada array
+function quickSort(arr) {
+    // Basis kasus: jika array memiliki panjang 1 atau kurang, sudah terurut
+    if (arr.length <= 1) {
+        return arr;
+    }
+
+    // Pilih pivot (di sini pilih elemen pertama sebagai pivot)
+    const pivot = arr[0];
+
+    // Pisahkan elemen-elemen yang lebih kecil dari pivot dan lebih besar dari pivot
+    const lessThanPivot = arr.slice(1).filter(x => x <= pivot);
+    const greaterThanPivot = arr.slice(1).filter(x => x > pivot);
+
+    // Gabungkan hasil rekursi dengan pivot
+    return [...quickSort(lessThanPivot), pivot, ...quickSort(greaterThanPivot)];
+}
