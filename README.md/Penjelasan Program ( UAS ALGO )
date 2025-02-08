@@ -1,0 +1,16 @@
+Program ini adalah contoh dari sistem manajemen kehadiran yang dapat digunakan untuk mengelola kehadiran siswa di sebuah swimming school.
+
+>. Alur Program
+   - Program akan terus menampilkan menu utama hingga user memilih untuk keluar.
+   - user dapat menambahkan siswa baru, mencatat kehadiran, dan melihat daftar kehadiran.
+   - Setiap kali user memilih opsi, program akan melakukan operasi yang sesuai dan memberikan feedback kepada user.
+
+>. Contoh
+   Menambahkan Siswa:
+     - user memilih opsi 1 dan memasukkan nama siswa, misalnya "Syauqi".
+     - Program akan menambahkan "Syauqi" ke dalam daftar siswa.
+   Mencatat Kehadiran:
+     - user memilih opsi 2, melihat daftar siswa, dan memilih nomor siswa yang hadir, misalnya nomor 1 (Syauqi).
+     - Program akan mencatat bahwa Syauqi hadir.
+   Menampilkan Kehadiran:
+     - user memilih opsi 3, dan program akan menampilkan daftar siswa beserta status kehadiran mereka, misalnya "Syauqi - Hadir".
