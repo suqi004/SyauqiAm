@@ -1,39 +1,23 @@
-Tujuan dari program Java tersebut adalah untuk **mengelola dan mencatat kehadiran siswa di sebuah sekolah renang secara sederhana**. Program ini dirancang untuk memudahkan pengguna (misalnya, guru atau administrator) 
+Tujuan dari program Java tersebut adalah untuk **mengelola dan mencatat kehadiran siswa di sebuah sekolah renang secara sederhana**. Program ini dirancang untuk memudahkan USER (misalnya untuk, guru, pelatih, dan administrator) 
 dalam melakukan beberapa tugas terkait kehadiran siswa, seperti:
 
-### 1. **Menambahkan Siswa Baru**
-   - Program memungkinkan pengguna untuk menambahkan nama siswa ke dalam sistem. Setiap siswa yang ditambahkan akan disimpan dalam daftar (`ArrayList`) dan status kehadiran awalnya diatur sebagai "Tidak Hadir".
+1. *Menambahkan Siswa *
+   - Program memungkinkan user untuk menambahkan nama siswa ke dalam sistem. Setiap siswa yang ditambahkan akan disimpan dalam daftar dan status kehadiran awalnya diatur dengan "Tidak Hadir".
 
-### 2. **Mencatat Kehadiran Siswa**
-   - Pengguna dapat mencatat kehadiran siswa pada hari tertentu. Program akan menampilkan daftar siswa yang terdaftar, dan pengguna dapat memilih siswa yang hadir dengan memasukkan nomor urut siswa tersebut. Status kehadiran siswa yang dipilih akan diubah menjadi "Hadir".
+2. *Mencatat Kehadiran Siswa*
+   - user dapat mencatat kehadiran siswa pada hari tertentu. Program akan menampilkan daftar siswa yang terdaftar, dan user dapat memilih siswa yang hadir dengan memasukkan nomor urut siswa tersebut. Status kehadiran siswa yang dipilih akan diubah menjadi "Hadir".
 
-### 3. **Menampilkan Daftar Kehadiran**
+3. *Menampilkan Daftar Kehadiran*
    - Program dapat menampilkan daftar semua siswa beserta status kehadiran mereka (Hadir atau Tidak Hadir). Ini berguna untuk melihat ringkasan kehadiran siswa pada hari tersebut.
 
-### 4. **Menyediakan Antarmuka Sederhana**
-   - Program menyediakan antarmuka berbasis teks (CLI) yang mudah digunakan. Pengguna dapat memilih opsi dari menu untuk melakukan operasi yang diinginkan, seperti menambah siswa, mencatat kehadiran, atau melihat daftar kehadiran.
+4. *Menyediakan Antarmuka Sederhana*
+   - Program menyediakan antarmuka berbasis teks yang mudah digunakan. user dapat memilih opsi dari menu untuk melakukan operasi yang diinginkan, seperti menambah siswa, mencatat kehadiran, atau melihat daftar kehadiran.
 
-### 5. **Menggunakan Konsep Pemrograman Berorientasi Objek (OOP)**
-   - Program menggunakan konsep OOP dengan membuat kelas `Siswa` yang merepresentasikan entitas siswa. Setiap objek `Siswa` memiliki atribut `nama` dan `hadir`, serta metode untuk mengatur dan menampilkan status kehadiran.
+5. *Menyimpan Data Sementara*
+   - Data siswa dan kehadiran disimpan sementara dalam `ArrayList` selama program berjalan. Ini memungkinkan user untuk mengelola data tanpa perlu menggunakan database eksternal.
 
-### 6. **Menyimpan Data Sementara**
-   - Data siswa dan kehadiran disimpan sementara dalam `ArrayList` selama program berjalan. Ini memungkinkan pengguna untuk mengelola data tanpa perlu menggunakan database eksternal.
-
-### 7. **Memudahkan Pengelolaan Kehadiran**
-   - Program ini dirancang untuk memudahkan pengelolaan kehadiran siswa dalam konteks yang sederhana, seperti di sekolah renang atau kegiatan ekstrakurikuler lainnya. Dengan program ini, pengguna dapat dengan cepat mencatat dan memeriksa kehadiran siswa.
-
-### **Contoh Penggunaan dalam Dunia Nyata:**
-- Seorang guru sekolah renang dapat menggunakan program ini untuk mencatat kehadiran siswa setiap hari.
-- Administrator dapat menambahkan siswa baru ke dalam sistem saat ada pendaftaran baru.
-- Program ini juga dapat digunakan untuk melihat laporan kehadiran harian siswa.
-
-### **Kesimpulan:**
-Tujuan utama program ini adalah **menyediakan alat sederhana untuk mengelola kehadiran siswa** dengan fitur-fitur dasar seperti penambahan siswa, pencatatan kehadiran, dan penampilan daftar kehadiran. Program ini cocok untuk penggunaan skala kecil atau sebagai contoh pembelajaran pemrograman Java.Program ini adalah contoh dari sistem manajemen kehadiran yang dapat digunakan untuk mengelola kehadiran siswa di sebuah swimming school.
-
->. Alur Program
-   - Program akan terus menampilkan menu utama hingga user memilih untuk keluar.
-   - user dapat menambahkan siswa baru, mencatat kehadiran, dan melihat daftar kehadiran.
-   - Setiap kali user memilih opsi, program akan melakukan operasi yang sesuai dan memberikan feedback kepada user.
+6. *Memudahkan Pengelolaan Kehadiran*
+   - Program ini dirancang untuk memudahkan pengelolaan kehadiran siswa dalam konteks yang sederhana, seperti di sekolah renang atau kegiatan ekstrakurikuler lainnya. Dengan program ini, user dapat dengan cepat mencatat dan memeriksa kehadiran siswa.
 
 >. Contoh
    Menambahkan Siswa:
@@ -44,3 +28,11 @@ Tujuan utama program ini adalah **menyediakan alat sederhana untuk mengelola keh
      - Program akan mencatat bahwa Syauqi hadir.
    Menampilkan Kehadiran:
      - user memilih opsi 3, dan program akan menampilkan daftar siswa beserta status kehadiran mereka, misalnya "Syauqi - Hadir".
+
+*Contoh Penggunaan dalam Dunia Nyata:*
+- Seorang guru sekolah renang dapat menggunakan program ini untuk mencatat kehadiran siswa setiap hari.
+- Administrator dapat menambahkan siswa baru ke dalam sistem saat ada pendaftaran baru.
+- Program ini juga dapat digunakan untuk melihat laporan kehadiran harian siswa.
+
+*Kesimpulan:*
+Tujuan utama program ini adalah **menyediakan alat sederhana untuk mengelola kehadiran siswa** dengan fitur-fitur dasar seperti penambahan siswa, pencatatan kehadiran, dan penampilan daftar kehadiran. Program ini cocok untuk penggunaan skala kecil atau sebagai contoh pembelajaran pemrograman Java.Program ini adalah contoh dari sistem manajemen kehadiran yang dapat digunakan untuk mengelola kehadiran siswa di sebuah swimming school.
