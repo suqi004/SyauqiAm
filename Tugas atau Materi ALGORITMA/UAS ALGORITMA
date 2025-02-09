@@ -28,7 +28,7 @@ public class AbsensiSwimmingSchool {
         while (true) {
             System.out.println("\nMenu:");
             System.out.println("1. Tambah Nama Siswa");
-            System.out.println("2. Catat Kehadiran Hari Ini");
+            System.out.println("2. Catat Kehadiran");
             System.out.println("3. Tampilkan Daftar Kehadiran");
             System.out.println("4. Keluar");
             System.out.print("Pilih menu: ");
@@ -40,7 +40,7 @@ public class AbsensiSwimmingSchool {
                     tambahnamaSiswa();
                     break;
                 case 2:
-                    catatKehadiranHariIni();
+                    catatKehadiran();
                     break;
                 case 3:
                     tampilkanKehadiran();
@@ -61,7 +61,7 @@ public class AbsensiSwimmingSchool {
         System.out.println("Siswa " + nama + " telah ditambahkan.");
     }
 
-    private static void catatKehadiranHariIni() {
+    private static void catatKehadiran() {
         if (daftarSiswa.isEmpty()) {
             System.out.println("Belum ada siswa yang terdaftar.");
             return;
@@ -91,7 +91,7 @@ public class AbsensiSwimmingSchool {
             return;
         }
 
-        System.out.println("Daftar Kehadiran Hari Ini:");
+        System.out.println("Daftar Kehadiran:");
         for (Siswa siswa : daftarSiswa) {
             System.out.println(siswa);
         }
