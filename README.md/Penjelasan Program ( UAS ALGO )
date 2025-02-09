@@ -27,7 +27,7 @@ dalam melakukan beberapa tugas terkait kehadiran siswa, seperti:
      - user memilih opsi 2, melihat daftar siswa, dan memilih nomor siswa yang hadir, misalnya nomor 1 (Syauqi).
      - Program akan mencatat bahwa Syauqi hadir.
    Menampilkan Kehadiran:
-     - user memilih opsi 3, dan program akan menampilkan daftar siswa beserta status kehadiran mereka, misalnya "Syauqi - Hadir".
+     - user memilih opsi 3, dan program akan menampilkan daftar siswa beserta status kehadiran mereka, misalnya "Syauqi - Hadir atau tidak hadir".
 
 *Contoh Penggunaan dalam Dunia Nyata:*
 - Seorang guru sekolah renang dapat menggunakan program ini untuk mencatat kehadiran siswa setiap hari.
@@ -35,4 +35,4 @@ dalam melakukan beberapa tugas terkait kehadiran siswa, seperti:
 - Program ini juga dapat digunakan untuk melihat laporan kehadiran harian siswa.
 
 *Kesimpulan:*
-Tujuan utama program ini adalah **menyediakan alat sederhana untuk mengelola kehadiran siswa** dengan fitur-fitur dasar seperti penambahan siswa, pencatatan kehadiran, dan penampilan daftar kehadiran. Program ini cocok untuk penggunaan skala kecil atau sebagai contoh pembelajaran pemrograman Java.Program ini adalah contoh dari sistem manajemen kehadiran yang dapat digunakan untuk mengelola kehadiran siswa di sebuah swimming school.
+Tujuan utama program ini adalah **menyediakan alat sederhana untuk mengelola kehadiran siswa** dengan fitur-fitur dasar seperti penambahan siswa, pencatatan kehadiran, dan penampilan daftar kehadiran, Program ini cocok untuk penggunaan skala kecil.
