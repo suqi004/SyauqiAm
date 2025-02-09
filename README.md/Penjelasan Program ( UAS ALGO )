@@ -28,7 +28,7 @@ dalam melakukan beberapa tugas terkait kehadiran siswa, seperti:
      - Program akan mencatat bahwa Syauqi hadir.
    Menampilkan Kehadiran:
      - user memilih opsi 3, dan program akan menampilkan daftar siswa beserta status kehadiran mereka, misalnya "Syauqi - Hadir atau tidak hadir".
-
+![alt text](https://github.com/suqi004/SyauqiAm/blob/main/Picture/output%20uas%202%20.PNG?raw=true)
 *Contoh Penggunaan dalam Dunia Nyata:*
 - Seorang guru sekolah renang dapat menggunakan program ini untuk mencatat kehadiran siswa setiap hari.
 - Administrator dapat menambahkan siswa baru ke dalam sistem saat ada pendaftaran baru.
